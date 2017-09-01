@@ -1,0 +1,66 @@
+.button {
+        -fx-font-size: 13.0px;
+        -fx-base: #00a7d4;
+        -fx-background: transparent;
+        -fx-focus-color: #202323;
+        -fx-control-inner-background: #FFFFFF;
+        -fx-text-base-color: #FFFFFF;
+        -fx-background-color: #4F4F4F;
+        -fx-inner-border: linear-gradient(to bottom, derive(-fx-color,73.6%) 0%, derive(-fx-color,29.200000000000003%) 100%);
+        -fx-body-color: linear-gradient( to bottom, derive(-fx-color, 34.0%) 0%, derive(-fx-color, -18.0%) 100%);
+        -fx-background-insets: 0px;
+        -fx-background-radius: 0px;
+        -fx-padding: 0.166667em 0.833333em 0.25em 0.833333em; /* 2 10 3 10 */
+        -fx-alignment: CENTER;
+        -fx-content-display: LEFT;
+        }
+
+
+.button:hover {
+        -fx-focus-color: #202323;
+        -fx-background-color: #202323, #6E8B3D;
+}
+
+.button:disabled, .button:disabled > * {
+        -fx-background-color: transparent;
+        -fx-opacity: 1.0 ;
+        -fx-border-color: #FFFFFF50;
+}
+
+.button-home {
+        -fx-font-size: 14.0px;
+        -fx-background-color: transparent;
+        -fx-background-radius: 0;
+        -fx-text-fill: #00000095;
+}
+
+.button-company {
+        -fx-font-size: 13.0px;
+        -fx-background-color: #27AE60;
+        -fx-background-radius: 4;
+        -fx-text-fill: #FFFFFF;
+}
+
+.button-home:focused {
+        -fx-background-color: transparent;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-border-color: #FFFFFF;
+    -fx-padding: 10;
+}
+
+#incomeLBL {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+}
+
+.busy{
+        -fx-font-size: 14.0px;
+        -fx-font-weight: bold;
+        -fx-alignment: CENTER;
+        -fx-text-fill: white;
+}
