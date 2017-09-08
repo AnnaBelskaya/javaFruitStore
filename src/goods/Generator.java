@@ -48,10 +48,10 @@ public class Generator {
     public static List<Client> generateClient(int count) {
         List<Client> clients = new ArrayList<>(count);
         for (int i = 0; i < count; i++) {
-            Client client = new Client();
-            client.name = names[r.nextInt(names.length - 1)];
-            client.type = Type.getRandom();
-            client.count = r.nextInt(10) + 1;
+            String n = names[r.nextInt(names.length - 1)];
+            Type t = Type.getRandom();
+            int c = r.nextInt(10) + 1;
+            Client client = new Client(n,t,c);
             clients.add(client);
         }
         return clients;

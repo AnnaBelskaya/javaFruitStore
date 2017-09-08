@@ -82,13 +82,13 @@ public class Store {
         String result = "";
         List<Client> clients = FileManager.loadCLient(clientstxt);
         for (int i = 0; i < clients.size(); i++){
-            Type t = clients.get(i).type;
-            int c = clients.get(i).count;
+            Type t = clients.get(i).getType();
+            int c = clients.get(i).getCount();
             Date date = new Date();
             if (getAvailableFruits(date, t).size() >= c){
-                result += clients.get(i).name + " bought " + c + " " + t + " for " + deleteSold(c,t) +"$.\n";
+                result += clients.get(i).getName() + " bought " + c + " " + t + " for " + deleteSold(c,t) +"$.\n";
             } else {
-                result += clients.get(i).name + " didn't buy anything.\n";
+                result += clients.get(i).getName() + " didn't buy anything.\n";
             }
         }
         return result;
