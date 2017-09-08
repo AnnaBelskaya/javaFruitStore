@@ -1,161 +1,73 @@
 [ {
-  "type" : "Pineapples",
-  "shelfLife" : 183,
-  "date" : "02/01/2017",
-  "price" : 5
+  "type" : "Apricots",
+  "shelfLife" : 121,
+  "date" : "16/04/2017",
+  "price" : 5,
+  "simpleDate" : "16/04/2017"
 }, {
   "type" : "Kiwifruit",
-  "shelfLife" : 97,
-  "date" : "13/04/2017",
-  "price" : 10
+  "shelfLife" : 90,
+  "date" : "25/04/2017",
+  "price" : 7,
+  "simpleDate" : "25/04/2017"
 }, {
   "type" : "Kiwifruit",
-  "shelfLife" : 107,
-  "date" : "18/03/2017",
-  "price" : 11
-}, {
-  "type" : "Kiwifruit",
-  "shelfLife" : 202,
-  "date" : "08/01/2017",
-  "price" : 9
-}, {
-  "type" : "Mangoes",
-  "shelfLife" : 114,
-  "date" : "06/03/2017",
-  "price" : 11
-}, {
-  "type" : "Oranges",
-  "shelfLife" : 87,
-  "date" : "24/05/2017",
-  "price" : 7
-}, {
-  "type" : "Kiwifruit",
-  "shelfLife" : 171,
-  "date" : "08/03/2017",
-  "price" : 3
-}, {
-  "type" : "Oranges",
-  "shelfLife" : 165,
-  "date" : "23/02/2017",
-  "price" : 3
-}, {
-  "type" : "Peaches",
-  "shelfLife" : 111,
-  "date" : "27/02/2017",
-  "price" : 10
-}, {
-  "type" : "Kiwifruit",
-  "shelfLife" : 127,
-  "date" : "04/04/2017",
-  "price" : 8
+  "shelfLife" : 92,
+  "date" : "14/02/2017",
+  "price" : 6,
+  "simpleDate" : "14/02/2017"
 }, {
   "type" : "Pineapples",
-  "shelfLife" : 102,
-  "date" : "25/03/2017",
-  "price" : 3
+  "shelfLife" : 83,
+  "date" : "02/04/2017",
+  "price" : 3,
+  "simpleDate" : "02/04/2017"
 }, {
-  "type" : "Peaches",
-  "shelfLife" : 227,
-  "date" : "09/01/2017",
-  "price" : 8
-}, {
-  "type" : "Peaches",
-  "shelfLife" : 107,
-  "date" : "10/02/2017",
-  "price" : 11
-}, {
-  "type" : "Pears",
-  "shelfLife" : 222,
-  "date" : "11/01/2017",
-  "price" : 6
-}, {
-  "type" : "Oranges",
-  "shelfLife" : 81,
-  "date" : "13/04/2017",
-  "price" : 9
-}, {
-  "type" : "Mangoes",
-  "shelfLife" : 225,
-  "date" : "09/01/2017",
-  "price" : 12
-}, {
-  "type" : "Apples",
-  "shelfLife" : 201,
-  "date" : "05/01/2017",
-  "price" : 7
-}, {
-  "type" : "Pears",
-  "shelfLife" : 200,
-  "date" : "02/02/2017",
-  "price" : 8
-}, {
-  "type" : "Peaches",
-  "shelfLife" : 183,
-  "date" : "01/01/2017",
-  "price" : 11
-}, {
-  "type" : "Mangoes",
-  "shelfLife" : 85,
+  "type" : "Kiwifruit",
+  "shelfLife" : 140,
   "date" : "27/03/2017",
-  "price" : 5
-}, {
-  "type" : "Peaches",
-  "shelfLife" : 82,
-  "date" : "13/03/2017",
-  "price" : 11
-}, {
-  "type" : "Mangoes",
-  "shelfLife" : 164,
-  "date" : "19/02/2017",
-  "price" : 9
-}, {
-  "type" : "Pears",
-  "shelfLife" : 128,
-  "date" : "16/01/2017",
-  "price" : 12
-}, {
-  "type" : "Kiwifruit",
-  "shelfLife" : 104,
-  "date" : "10/01/2017",
-  "price" : 7
-}, {
-  "type" : "Pears",
-  "shelfLife" : 171,
-  "date" : "19/02/2017",
-  "price" : 3
-}, {
-  "type" : "Mangoes",
-  "shelfLife" : 170,
-  "date" : "01/02/2017",
-  "price" : 11
+  "price" : 3,
+  "simpleDate" : "27/03/2017"
 }, {
   "type" : "Apricots",
+  "shelfLife" : 135,
+  "date" : "07/02/2017",
+  "price" : 3,
+  "simpleDate" : "07/02/2017"
+}, {
+  "type" : "Kiwifruit",
+  "shelfLife" : 99,
+  "date" : "16/02/2017",
+  "price" : 4,
+  "simpleDate" : "16/02/2017"
+}, {
+  "type" : "Oranges",
   "shelfLife" : 84,
-  "date" : "10/04/2017",
-  "price" : 6
+  "date" : "22/04/2017",
+  "price" : 7,
+  "simpleDate" : "22/04/2017"
 }, {
-  "type" : "Apples",
-  "shelfLife" : 209,
-  "date" : "20/01/2017",
-  "price" : 3
+  "type" : "Kiwifruit",
+  "shelfLife" : 87,
+  "date" : "19/03/2017",
+  "price" : 3,
+  "simpleDate" : "19/03/2017"
 }, {
-  "type" : "Bananas",
-  "shelfLife" : 108,
-  "date" : "09/01/2017",
-  "price" : 8
+  "type" : "Apricots",
+  "shelfLife" : 119,
+  "date" : "03/01/2017",
+  "price" : 10,
+  "simpleDate" : "03/01/2017"
 }, {
-  "type" : "Bananas",
-  "shelfLife" : 96,
-  "date" : "15/04/2017",
-  "price" : 5
+  "type" : "Oranges",
+  "shelfLife" : 115,
+  "date" : "27/03/2017",
+  "price" : 7,
+  "simpleDate" : "27/03/2017"
 }, {
-  "type" : "Apples",
-  "shelfLife" : 133,
-  "date" : "25/04/2017",
-  "price" : 12
-}, {
-  "type" : "Peaches",
-  "shelfLife" : 149,
-  "date" : "12/02/2017",
-  "price" : 3
+  "type" : "Apricots",
+  "shelfLife" : 122,
+  "date" : "18/03/2017",
+  "price" : 9,
+  "simpleDate" : "18/03/2017"
 } ]

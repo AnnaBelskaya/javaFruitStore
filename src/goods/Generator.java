@@ -22,10 +22,10 @@ public class Generator {
         List<Fruit> fruitList = new ArrayList<>(count);
         for (int i = 0; i < count; i++) {
             Fruit fruit = new Fruit();
-            fruit.type = Type.getRandom();
-            fruit.shelfLife = r.nextInt(150) + 80;
-            fruit.date = generateDate();
-            fruit.price = r.nextInt(10) + 3;
+            fruit.setType(Type.getRandom());
+            fruit.setShelfLife(r.nextInt(150) + 80);
+            fruit.setDate(generateDate());
+            fruit.setPrice(r.nextInt(10) + 3);
             fruitList.add(fruit);
         }
         return fruitList;

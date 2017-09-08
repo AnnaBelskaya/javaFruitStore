@@ -31,7 +31,7 @@ public class Store {
     private void sortFruits(Date date) throws IOException {
         spoiled = new ArrayList<>();
         Predicate<Fruit> predicate = f->
-                (Math.abs(date.getTime() - f.date.getTime())/ (1000*60*60*24)) <= f.shelfLife;
+                (Math.abs(date.getTime() - f.getSimpleDate().getTime())/ (1000*60*60*24)) <= f.getShelfLife();
         spoiled.addAll(fruit);
         spoiled.removeIf(predicate);
         FileManager.save(spoiled, spoiledtxt);
@@ -39,7 +39,7 @@ public class Store {
 
         fresh = new ArrayList<>();
         Predicate<Fruit> predicate2 = f->
-                (Math.abs(date.getTime() - f.date.getTime())/ (1000*60*60*24)) > f.shelfLife;
+                (Math.abs(date.getTime() - f.getSimpleDate().getTime())/ (1000*60*60*24)) > f.getShelfLife();
         fresh.addAll(fruit);
         fresh.removeIf(predicate2);
         FileManager.save(fresh, freshtxt);
@@ -57,13 +57,13 @@ public class Store {
 
     public List<Fruit> getSpoiledFruits(Date date, Type type) throws IOException {
         sortFruits(date);
-        spoiled.removeIf(f -> !f.type.equals(type));
+        spoiled.removeIf(f -> !f.getType().equals(type));
         return spoiled;
     }
 
     public List<Fruit> getAvailableFruits(Date date, Type type) throws IOException {
         sortFruits(date);
-        fresh.removeIf(f -> !f.type.equals(type));
+        fresh.removeIf(f -> !f.getType().equals(type));
         return fresh;
     }
 
@@ -98,8 +98,8 @@ public class Store {
         int price = 0;
         int i = -1;
         while(size >0){
-            if (fruit.get(++i).type.equals(type)){
-                price+=fruit.get(i).price;
+            if (fruit.get(++i).getType().equals(type)){
+                price+=fruit.get(i).getPrice();
                 fruit.remove(i);
                 --size;
             }

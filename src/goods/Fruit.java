@@ -4,10 +4,10 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Fruit {
-    public Type type;
-    public int shelfLife;
-    public Date date;
-    public int price;
+    private Type type;
+    private int shelfLife;
+    private Date date;
+    private int price;
 
     public Type getType() {
         return type;
@@ -29,6 +29,11 @@ public class Fruit {
         final SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
         return formatter.format(date);
     }
+
+    public Date getSimpleDate() {
+        return date;
+    }
+
 
     public void setDate(Date date) {
         this.date = date;
